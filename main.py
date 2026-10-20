@@ -9,12 +9,7 @@ def checkNum(e):
 
     num1= document.getElementById("num1").value
     num2= document.getElementById("num2").value
-    name= num1 + " " + num2
-    num3= num1.lower()
-    num4= num2.lower()
-    Labid = num3 + " " + num4
-
-    confirm_num = Labid in num_bers
+    NEWKID= num1 + " " + num2
 
     message = (f'Sorry {name}, youre not part of the club', f'Congrats {name}, youre part of the club.')
 
