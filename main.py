@@ -2,7 +2,10 @@ from pyscript import document
 
 def checkNum(e):
     document.getElementById("output1").innerHTML = ""
-    num_bers= ["maia fabro", "erin mandapat", "erin mundo", "erin sakda", "erin murda"]
+    Grade_7= {"John Sahur", "Mon Seiur", "Entrepreneur Duer", "Air Shakur"}
+    Grade_8= {"Silver Stein", "Murder Klein", "Epstein Silvine", "Boy Moder"}
+    Grade_9= {"Hont Ton", "Won Ton", "Noodle Moodle", "Rooble Shooble"}
+    Grade_10= {"Swinging Thinging", "Minging Ringing", "Slipping Silking", "Flicking Midding"}
 
     num1= document.getElementById("num1").value
     num2= document.getElementById("num2").value
